@@ -1,0 +1,3 @@
+# S3 bucket where build artifacts are deployed
+# Makefile will deploy build artifacts to this bucket
+bucket :=

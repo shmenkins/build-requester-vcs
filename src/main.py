@@ -1,9 +1,6 @@
-import boto3
 import json
-import logging
-import os
 import uuid
-from shmenkins import logging, aws
+from shmenkins.utils import logging, aws
 
 logger = logging.get_logger()
 

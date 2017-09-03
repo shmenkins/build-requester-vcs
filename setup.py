@@ -12,17 +12,17 @@ setup(
     name="Webhook",
     version="0.1.0",
     license="MIT",
-    description="Webhook Component.",
-    long_description="Webhook Component.",
+    description="Build Requester Component.",
+    long_description="Build Requester Component.",
     author="Renat Zhilkibaev",
     author_email="rzhilkibaev@gmail.com",
-    url="https://github.com/rzhilkibaev/shmenkins",
+    url="https://github.com/shmenkins/build-requester-vcs",
     packages=find_packages("src"),
     package_dir={"": "src"},
     py_modules=[splitext(basename(path))[0] for path in glob("src/*.py")],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "boto3", "shmenkins"
+        "boto3", "shmenkins.utils"
     ],
 )
